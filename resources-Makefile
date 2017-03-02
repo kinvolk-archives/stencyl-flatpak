@@ -14,4 +14,3 @@ install:
 	# where the pcre library is installed as libpcre.so.3, 
 	# Similar (API compatible) pcre in the flatpak runtime is libpcre.so.1,
 	# so we create a symlink.
-	ln -s /usr/lib/libpcre.so.1 /app/lib/libpcre.so.3
